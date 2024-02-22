@@ -21,11 +21,31 @@ console.log("A",myarr1);
 const myarr2 = narr.splice(0,4);//it will take a part of an array and it will also change the real array.
 console.log("B" , myarr2);
 console.log("Real Array" , narr);
-//------------lvl 2----------------
+//------------lvl up----------------
 
 const marvelHeroes = ["deadpool" ,"spider man","Iron man","chaptain america" , "Hulk"];
 const dCHeroes = ["batman","flash","robin","Raven"];
 const allHeroes = marvelHeroes.concat(dCHeroes);
 console.log(allHeroes);
+
+const twoDArr  = [2,6,10,[11,12],16,20,[21,[21.5,22.0],23,24],28];
+console.log(twoDArr);
+const oneD_isActually2Darr = twoDArr.flat(10);//flat method Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+console.log(oneD_isActually2Darr);
+
+console.log(Array.isArray("Debasish"));//it will check if the argument is array or not.
+console.log(Array.from("Raptor"));//it will Creates an array from an iterable object.
+
+
+console.log(Array.from({name: "Denasish"}));
+let s1 = 100;
+let s2 = 200;
+let s3 = 300;
+console.log(Array.of(s1,s2,s3));// it will Returns a new array from a set of elements.
+
+
+
+
+
 
 
