@@ -10,9 +10,9 @@ const num1 = 4
     console.log(Number(456)==num1)
     let num2 = Number(582)
     console.log(num2)
-    let num = new Number(789)
+    let num = new Number(789);
     console.log(num)
-    console.log(num.toString)
+    console.log(num.toString())
     console.log(typeof(num.toString()))
     let a = num.valueOf()
     console.log(typeof(num))
@@ -53,9 +53,13 @@ const num1 = 4
     // console.log(myDate.toJSON);
     // console.log(myDate.toLocaleString);
 
-    // let newDate = new Date(2024,1,22);
-    let newDate = new Date(2024,1,22,2,40);
-    console.log(newDate)
+     let newDate = new Date(2024,1,22);
+   // let newDate = new Date(2024,1,22,2,40);
+   // console.log(newDate)
+  //  newDate = new Date;
+    console.log(newDate.toLocaleDateString())
+    console.log(newDate.getDate())
+    console.log(newDate.getHours())
 
 
 
