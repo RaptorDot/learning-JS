@@ -21,5 +21,11 @@ console.log("A",myarr1);
 const myarr2 = narr.splice(0,4);//it will take a part of an array and it will also change the real array.
 console.log("B" , myarr2);
 console.log("Real Array" , narr);
+//------------lvl 2----------------
+
+const marvelHeroes = ["deadpool" ,"spider man","Iron man","chaptain america" , "Hulk"];
+const dCHeroes = ["batman","flash","robin","Raven"];
+const allHeroes = marvelHeroes.concat(dCHeroes);
+console.log(allHeroes);
 
 
