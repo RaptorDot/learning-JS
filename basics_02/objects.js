@@ -49,7 +49,12 @@
 
  //   const ytUser = new Object(); //singleton object
    // console.log(ytUser);
-//    const microUser = {};// non-singleton object
+   const microUser = {};// non-singleton object
 //    console.log(microUser)
+    microUser.email = "agdtb@mmail.com";
+    microUser.fullname ="Debasish Das";
+    microUser.age = 18;
+    microUser.isLogedIn = false;
+//-----------------------------------------
 
  
