@@ -55,6 +55,43 @@
     microUser.fullname ="Debasish Das";
     microUser.age = 18;
     microUser.isLogedIn = false;
+    console.log(microUser);
+    console.log(Object.keys(microUser))//it will return all the keys(names of the enumerable ) of a object as a array
+    console.log(Object.values(microUser))// it will return the value of all keys in a array
+
 //-----------------------------------------
 
- 
+const users = [
+    {
+        id:"1234",
+        email:"assaas@xmail",
+        loggedIn: true
+    },
+    {
+        id:"1234",
+        email:"assaas@xmail",
+        loggedIn: true
+    },
+    {
+        id:"1234",
+        email:"assaas@xmail",
+        loggedIn: true
+    }
+] 
+// console.log(users[1].email)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+    const course = {
+        price: 999,
+        courseInstructor : "Debasish Das",
+        duration:"90 hrs",
+        userLVL: "beginner"
+    }
+
+    // console.log(course.courseInstructor)
+    const {courseInstructor} = course; // now we can directly use the key
+    console.log(courseInstructor)
+    const {userLVL: knowladge} = course; // we can also give a name of any keys and use is
+    console.log(knowladge);
+
+    
