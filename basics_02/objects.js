@@ -8,28 +8,26 @@
 //     email: "debasish@micro.com",
 //     isLogedIn: false
 
-<<<<<<< HEAD
-}
+
+
 console.log(jsUser.location);
 console.log(jsUser["location"])
 //we can use object's useing "dot" oparetor or "[]" brakets
 // console.log(jsUser.full name)
 console.log(jsUser["full name"]);//full name cant be use eith dot oparetor in this case
-<<<<<<< HEAD
+
 //overwriting
-=======
 // }
 // console.log(jsUser.location);
 // console.log(jsUser["location"])
 // //we can use object's useing "dot" oparetor or "[]" brakets
 // // console.log(jsUser.full name)
 // console.log(jsUser["full name"]);//full name cant be use eith dot oparetor in this case
->>>>>>> 2cd09e692724db298184950e64ea364d7eea04f5
 
 
-<<<<<<< HEAD
+
+
 console.log(jsUser.age);
-=======
 //overwriting
 
 jsUser.age = 21;
@@ -41,8 +39,6 @@ console.log(jsUser.age)
     }
 console.log(jsUser.greetings)
 console.log(jsUser.greetings())
-=======
->>>>>>> 2cd09e692724db298184950e64ea364d7eea04f5
 
 // jsUser.age = 21;
 
