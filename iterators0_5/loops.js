@@ -24,7 +24,36 @@ while (index<10) {
 const arr = [1,2,3,74,6,8,75];
     //using forof loop
         for (const num of arr) {
-           // console.log(num);
+           // console.log(num); // ***for of loop***
         }
+
+        const map = new Map()
+        map.set(91 , "INDIA");
+        map.set(1, "USA");
+
+       // console.log(map);
+        for (const [key, value] of map) {
+           // console.log(key , ":-" , value);
+           //console.log(value);//
+            // console.log(key);
+        }
+
+        const myNewObj = {
+            js: "JavaScript",
+            cpp: "c++",
+            j: "java",
+            r: "rust"
+        }
+
+        for (const key in myNewObj) {
+          // console.log(` ${key} is the shortcut for ${myNewObj[key]}`);
+        }
+
+        const codingLang = ["js","c++","c","java","rust"];
+
+    codingLang.forEach(function (v){
+        console.log(v);
+    })
+
     
 
