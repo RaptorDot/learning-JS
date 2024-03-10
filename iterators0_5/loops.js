@@ -52,8 +52,24 @@ const arr = [1,2,3,74,6,8,75];
         const codingLang = ["js","c++","c","java","rust"];
 
     codingLang.forEach(function (v){
-        console.log(v);
+        //console.log(v);
     })
+
+    const objArray = [
+        {
+            name: "javaScript",
+            a:"j",
+            oi:"asd"
+        },
+        {
+            name1: "c++",
+            m: "programming lang"
+        }
+    ]
+
+    objArray.forEach(i => {
+        console.log(i.name);
+    });
 
     
 
