@@ -92,3 +92,24 @@ const arr = [1,2,3,74,6,8,75];
     const mbooks = books.filter((bk) => bk.genre = "Fiction" && bk.publish >= 2000)
 
   //console.log(mbooks)
+  const shoppingCart = [
+    {
+        itemName: "js course",
+        price: 2999
+    },
+    {
+        itemName: "py course",
+        price: 999
+    },
+    {
+        itemName: "mobile dev course",
+        price: 5999
+    },
+    {
+        itemName: "data science course",
+        price: 12999
+    },
+]
+
+ const addCart  = shoppingCart.reduce((acc, item) => acc + item.price , 0);
+ console.log(addCart);
