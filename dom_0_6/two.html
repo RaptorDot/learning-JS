@@ -18,6 +18,7 @@ function addLanguage(langName){
     document.querySelector(".lang").appendChild(li);
 }
 addLanguage("Rust");
+addLanguage("Golag")
 addLanguage("Python")
 
     const secLang = document.querySelector("li:nth-child(2)");
@@ -28,7 +29,9 @@ addLanguage("Python")
 
    secLang.replaceWith(newLi);
 
-
+//remove
+    const removeLang = document.querySelector("li:nth-child(3)");
+    removeLang.remove();
 
 </script>
 </html>
